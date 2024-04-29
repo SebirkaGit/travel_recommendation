@@ -1,0 +1,57 @@
+nav {
+    background-color: #333;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+}
+.logo-image {
+    max-width: 25%;
+    height: auto; /* Ensures the image maintains its aspect ratio */
+}
+.logo p{
+    color:lightblue;
+    font-size: 24px;
+    font-weight: 200;
+    font-family:Brush Script MT, Brush Script Std, cursive ;
+    align-items: center;
+    padding-left: 3.5rem;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.search-bar input[type="text"] {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+}
+
+.search-bar button {
+    padding: 8px 15px;
+    background-color: #555;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.search-bar button:hover {
+    background-color: #777;
+}

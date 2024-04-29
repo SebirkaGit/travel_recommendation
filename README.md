@@ -1,14 +1,14 @@
 # travel_recommendation
 
-Travel Recommendation Web Application
+## Travel Recommendation Web Application
 
 
-Estimated time needed: 90 minutes
 
-Introduction
+
+# Introduction
 In this project, you will create a webpage layout for a travel recommendation platform.
 
-This website will include:
+## This website will include:
 
 A navigation bar with links to the home page, "About Us" and "Contact Us" pages
 A search bar allowing users to input destinations or keywords to search for recommendations
@@ -17,7 +17,7 @@ A brief description promoting cultural exploration
 A "Book Now" button
 You will be able to implement the knowledge and skills you have gained from working on the practice project to help you handle dynamic functionalities, like search recommendations and result presentation.
 
-Learning objectives
+## Learning objectives
 After completing this lab, you will be able to:
 
 Enhanced user navigation: Implement an intuitive navigation bar with clear links to the Home, About Us, and Contact Us sections, ensuring a user friendly website.
@@ -28,7 +28,7 @@ Visual appeal and brand representation: Create an aesthetically pleasing landing
 
 JavaScript functionality: Utilize JavaScript to enable dynamic functionalities, such as live search recommendation fetching, interactivity for user inputs, or potential API integrations, enhancing the website's functionality and user experience.
 
-Prerequisites
+## Prerequisites
 Basic knowledge of HTML and GitHub
 
 Basic understanding of JavaScript functions, the Fetch API method, strings, arrays
