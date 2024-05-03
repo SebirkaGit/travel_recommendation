@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset ="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Travel Recommendation</title>
+        <link rel="stylesheet" href="travel_recommendation.css">
+        
+    </head>
+    <body>
+        <nav>
+            <div class ="logo">
+                <img class="logo-image" src="images/logo.png" alt="my Logo">
+                <p>Safe Trip</p>
+            </div>
+            <ul class="nav-links">
+                <li><a href="travel_recommendation.html">Home</a></li>
+                <li><a href="about_us.html">About Us</a></li>
+                <li><a href="contact_us.html">Contact Us</a></li>
+            </ul>
+            <div class="search-container">
+                <input type="text" placeholder="Search...">
+                <button type="button">Search</button>
+                <button type="button">Reset</button>
+            </div>
+        </nav>
+        <div id="search-results" style="display: none;"></div>
+        <header class="home-header">
+            <div class="home-header-content">
+                <h1>Uncover Your Ultimate Destinations</h1>
+                <p>Your ultimate destination for travel inspiration.
+                    Explore breathtaking landscapes, immerse yourself in vibrant cultures,
+                     and discover unforgettable experiences.</p>
+            </div>
+        </header>
+        <section id="countries-section">
+        </section>
+    
+        <section id="temples-section">
+        </section>
+    
+        <section id="beaches-section">
+        </section>
+
+        <div id="search-results"></div>
+
+        <script src="recommendations.js"></script>
+    </body>
+</html>
