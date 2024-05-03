@@ -74,7 +74,7 @@ function processRecommendations(data) {
       searchResultsContainer.appendChild(resultDiv);
     });
 
-    // Show search results container
+
     searchResultsContainer.style.display = 'block';
   }
 }
